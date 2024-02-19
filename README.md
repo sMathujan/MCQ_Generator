@@ -2,9 +2,20 @@
 MCQ Generator using OpenAI &amp; LangChain
 
 
-``` conda create -n mcqgen python=3.8 -y ``` 
+``` 
+conda create -n mcqgen python=3.8 -y 
+``` 
 
-``` conda activate mcqgen ```
 
-Check
+``` 
+conda activate mcqgen
+```
+
+
+```
+pip install -r requirements.txt
+```
+
+
+
 
