@@ -3,8 +3,8 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
-from mcqgenrator.utils import read_file,get_table_data
-from mcqgenrator.logger import logging
+from src.mcqgenerator.utils import read_file,get_table_data
+from src.mcqgenerator.logger import logging
 
 #imporing necessary packages packages from langchain
 from langchain.chat_models import ChatOpenAI
@@ -17,7 +17,8 @@ from langchain.chains import SequentialChain
 load_dotenv()
 
 # Access the environment variables just like you would with os.environ
-key = os.getenv("OPENAI_API_KEY")
+# key = os.getenv("OPENAI_API_KEY")
+key = "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"
 
 print("Value of MY_VARIABLE:", key)
 
